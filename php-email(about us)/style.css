@@ -1,0 +1,26 @@
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+form {
+  flex-basis: 48%;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label,
+select,
+input {
+  display: block;
+  width: 100%;
+  margin-top: 40;
+}
+
+button {
+  margin-top: 1rem;
+}
